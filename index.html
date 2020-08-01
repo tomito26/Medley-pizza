@@ -25,6 +25,71 @@
             <button type="submit" class="btn bg-primary ">View more</button>
         </div>
     </div>
+    <section class="pizza-select d-flex justify-content-center pt-5">
+        <div class="pizza">
+            <h2>Select Pizza</h2>
+            <div>
+                <div class="radio">
+                    <label for="">
+                        <input type="radio" name="size" value="small">
+                        Small
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name='size' value='large'>
+                        Medium
+                    </label>
+                </div>
+                <div class="radio">
+                    <label >
+                        <input type="radio" name="size" value="large">
+                        Large
+                    </label>
+                </div>
+            </div>
+            <div class="crust">
+            <h3>Types of Crust</h3>
+                <select class="form-control" id='crust'>
+                    <option value="1">Crispy</option>
+                    <option value="2">Stuffed</option>
+                    <option value="3">Glutten-free</option>
+                </select>
+            </div>
+            <div class="chekbox">
+                <h3>Toppings</h3>
+                <label >
+                    <input type="checkbox" name="toppings" value="pepperoni">
+                    Pepperoni
+                </label>
+                <label>
+                    <input type="checkbox" name="toppings" value="mushrooms">
+                    Mushrooms
+                </label>
+                <label >
+                    <input type="checkbox" name="toppings" value="onions">
+                    Onions
+                </label>
+                <label for="">
+                    <input type='checkbox' name='toppings' value='sausage'>
+                    Sausage
+                </label>
+                <label for="">
+                    <input type="checkbox" name="toppings" value="bacon">
+                    Bacon
+                </label>
+                <label for="">
+                    <input type="checkbox" name="toppings" value="extra-cheese">
+                    Extra Cheese
+                </label>
+                <label for="">
+                    <input type="checkbox" name="toppings" value="pineapple">
+                    Pineapple
+                </label>
+            </div>
+            <input type="number" name="quantity" id="number">
+        </div>
+    </section>
     <div class="footer">
         <div class="contacts p-5 d-flex flex-column">
             <i class="fas fa-envelope-square">info@pizzaro.com</i>

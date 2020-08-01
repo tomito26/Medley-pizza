@@ -1,4 +1,4 @@
-// header section 
+// image slides
 let slideshowImages  = document.querySelectorAll('.intro .slideshow-img');
 let nextImageDelay = 4000;
 let currentImageCounter = 0;
